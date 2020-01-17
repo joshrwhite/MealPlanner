@@ -4,7 +4,7 @@ import random
 from os import path
 
 # Open Meals.xlsx to get data for meals
-mealsBook = xlrd.open_workbook("C:\Users\jrwhite\Desktop\MealPlanner\Meals.xlsx") #Change this path to the path of your Meals.xlsx
+mealsBook = xlrd.open_workbook("C:\Users\jrwhite\Documents\GitHub\MealPlanner\Meals.xlsx") #Change this path to the path of your Meals.xlsx
 fullMealsSheet = mealsBook.sheet_by_name('Full Meals')
 mainDishesSheet = mealsBook.sheet_by_name('Main Dishes')
 sideDishesSheet = mealsBook.sheet_by_name('Side Dishes')
